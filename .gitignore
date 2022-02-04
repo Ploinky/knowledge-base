@@ -1,2 +1,5 @@
 # MacOS folder information...
 .DS_Store
+
+# npm packages
+node_modules
