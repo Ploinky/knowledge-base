@@ -47,7 +47,6 @@ body {
     max-height: 150px;
     flex: 1;
     border-bottom: 2px solid var(--border_dark);
-    padding-inline: 100px;
 }
 
 .nav-link {
@@ -59,9 +58,6 @@ body {
     color: var(--dark_blue);
     border-right: 2px solid var(--border_dark);
     border-left: 2px solid var(--border_light);
-}
-
-.nav-link p {
     margin: 0;
 }
 
@@ -72,10 +68,6 @@ body {
 .nav-link-image img {
     width: min(3vh, 3vh);
     height: min(3vh, 3vh);
-}
-
-.nav-link p {
-    flex: 1;
 }
 
 .nav .nav-link:first-child {
@@ -107,7 +99,7 @@ body {
 .logo::after {
     content: '';
     position: absolute;
-    top: 4px;
+    top: 2px;
     height: 100%;
     width: 100%;
     border-bottom: 1px solid var(--border_light);
