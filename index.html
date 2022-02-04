@@ -4,97 +4,93 @@
     <head>
         <title>Knowledge Base</title>
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="node_modules/milligram/dist/milligram.css">
     </head>
+
     <body>
-        <div class="main">
+        <main class="wrapper">
+            <div class="container">
 
-            <!-- Sidebar -->
-            <div class="aside">
-                <div class="logo">
-                    <svg class="svg-link">
-                        <use href="feather-sprite.svg#home"/>
-                    </svg>
-                    <span class="logo-text">
-                        Logo
-                    </span>
+                <div style="height:10%;" class="row">
+                    <div class="column column-10" id="logo">
+                        <div style="flex: 1;" class="svg-container"><svg class="svg" ><use href="feather-sprite.svg#bell"/></svg></div>
+                        <span style="flex: 1.5;">Logo</span>
+                    </div>
+                    <div class="column column-90" id="header">
+                        <ul class="header-list">
+                            <li>
+                                <div class="svg-container"><svg class="svg" ><use href="feather-sprite.svg#home"/></svg></div>
+                                <span>Home</span>
+                            </li>
+                            <li>
+                                <div class="svg-container"><svg class="svg" ><use href="feather-sprite.svg#list"/></svg></div>
+                                <span>All Artists</span>
+                            </li>
+                            <li>
+                                <div class="svg-container"><svg class="svg" ><use href="feather-sprite.svg#music"/></svg></div>
+                                <span>Music</span>
+                            </li>
+                            <li>
+                                <div class="svg-container"><svg class="svg" ><use href="feather-sprite.svg#music"/></svg></div>
+                                <span>Music</span>
+                            </li>
+                            <li>
+                                <div class="svg-container"><svg class="svg" ><use href="feather-sprite.svg#music"/></svg></div>
+                                <span>Music</span>
+                            </li>
+                            <li>
+                                <div class="svg-container"><svg class="svg" ><use href="feather-sprite.svg#music"/></svg></div>
+                                <span>Music</span>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="sidebar">
+
+                <div style="height: 90%;" class="row">
+                    <div class="column column-10 sidebar">
+                        
+                    </div>
+                    <div class="column column-90 content">
+                        <h1>Heading</h1>
+                        <img style="float: right; max-width: 25%; padding-left: 2%;" src="https://i.imgur.com/sqipJYY.png"/>
+                        <h3>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis pellentesque donec eu lectus.
+                            Tristique interdum volutpat, gravida molestie at bibendum. Sit vitae viverra congue egestas at purus venenatis.
+                            Ut sapien risus non, sed tempor. Senectus nec iaculis duis hendrerit volutpat.
+                            Imperdiet sagittis nibh sed viverra turpis. Lacus quam eu risus bibendum sed.
+                            Eu mauris amet tristique donec ultrices purus sed. Morbi pellentesque sem dolor eu.
+                        </h3>
+                        <span>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis pellentesque donec eu lectus.
+                            Tristique interdum volutpat, gravida molestie at. Sit vitae viverra congue egestas at purus venenatis.
+                            Ut sapien risus non, sed tempor. Senectus nec iaculis duis hendrerit volutpat. Imperdiet sagittis nibh
+                            sed viverra turpis. Lacus quam eu risus bibendum sed. Eu mauris amet tristique donec ultrices purus sed.
+                            Morbi pellentesque sem dolor eu.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis pellentesque donec eu lectus.
+                            Tristique interdum volutpat, gravida molestie at. Sit vitae viverra congue egestas at purus venenatis.
+                            Ut sapien risus non, sed tempor. Senectus nec iaculis duis hendrerit volutpat. Imperdiet sagittis nibh sed
+                            viverra turpis. Lacus quam eu risus bibendum sed. Eu mauris amet tristique donec ultrices purus sed.
+                            Morbi pellentesque sem dolor eu.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis pellentesque donec eu lectus.
+                            Tristique interdum volutpat, gravida molestie at. Sit vitae viverra congue egestas at purus venenatis.
+                            Ut sapien risus non, sed tempor. Senectus nec iaculis duis hendrerit volutpat. Imperdiet sagittis nibh
+                            sed viverra turpis. Lacus quam eu risus bibendum sed. Eu mauris amet tristique donec ultrices purus sed.
+                            Morbi pellentesque sem dolor eu.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis pellentesque donec eu lectus.
+                            Tristique interdum volutpat, gravida molestie at. Sit vitae viverra congue egestas at purus venenatis.
+                            Ut sapien risus non, sed tempor. Senectus nec iaculis duis hendrerit volutpat. Imperdiet sagittis nibh
+                            sed viverra turpis. Lacus quam eu risus bibendum sed. Eu mauris amet tristique donec ultrices purus sed.
+                            Morbi pellentesque sem dolor eu.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis pellentesque donec eu lectus.
+                            Tristique interdum volutpat, gravida molestie at. Sit vitae viverra congue egestas at purus venenatis.
+                            Ut sapien risus non, sed tempor. Senectus nec iaculis duis hendrerit volutpat. Imperdiet sagittis nibh
+                            sed viverra turpis. Lacus quam eu risus bibendum sed. Eu mauris amet tristique donec ultrices purus sed.
+                            Morbi pellentesque sem dolor eu.
+                        </span>
+                    </div>
                 </div>
-            </div>
 
-            <!-- Main page -->
-            <div class="content">
-                <!-- Header menu for navigation -->
-                <ul class="nav">
-                    <li class="nav-link">
-                        <svg class="svg-link">
-                            <use href="feather-sprite.svg#home"/>
-                        </svg>
-                        <span>Home</span>
-                    </li>
-                    <li class="nav-link">
-                        <svg class="svg-link">
-                            <use href="feather-sprite.svg#list"/>
-                        </svg>
-                        <span>All Artists</span>
-                    </li>
-                    <li class="nav-link">
-                        <svg class="svg-link">
-                            <use href="feather-sprite.svg#music"/>
-                        </svg>
-                        <span>Music</span>
-                    </li>
-                    <li class="nav-link">
-                        <svg class="svg-link">
-                            <use href="feather-sprite.svg#music"/>
-                        </svg>
-                        <span>Music</span>
-                    </li>
-                    <li class="nav-link">
-                        <svg class="svg-link">
-                            <use href="feather-sprite.svg#music"/>
-                        </svg>
-                        <span>Music</span>
-                    </li>
-                    <li class="nav-link">
-                        <svg class="svg-link">
-                            <use href="feather-sprite.svg#music"/>
-                        </svg>
-                        <span>Music</span>
-                    </li>
-                </ul>
-
-                <!-- Article section -->
-                <section class="section">
-                    <article class="article">
-                        <section class="heading">
-                            Article
-                        </section>
-                        <div class="blurb">
-                            <img class="float-image" src="https://i.imgur.com/sqipJYY.png" title="source: imgur.com" />
-                            <span>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis pellentesque donec eu lectus. Tristique interdum volutpat, gravida molestie at bibendum.
-                                Sit vitae viverra congue egestas at purus venenatis. Ut sapien risus non, sed tempor. Senectus nec iaculis duis hendrerit volutpat.
-                                Imperdiet sagittis nibh sed viverra turpis. Lacus quam eu risus bibendum sed. Eu mauris amet tristique donec ultrices purus sed. Morbi pellentesque sem dolor eu.
-                            </span>
-                        </div>
-                        <div>
-                            <span>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis pellentesque donec eu lectus. Tristique interdum volutpat, gravida molestie at. Sit vitae viverra congue egestas at purus venenatis.
-                                Ut sapien risus non, sed tempor. Senectus nec iaculis duis hendrerit volutpat. Imperdiet sagittis nibh sed viverra turpis. Lacus quam eu risus bibendum sed. Eu mauris amet tristique donec ultrices purus sed. Morbi pellentesque sem dolor eu.
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis pellentesque donec eu lectus. Tristique interdum volutpat, gravida molestie at. Sit vitae viverra congue egestas at purus venenatis.
-                                Ut sapien risus non, sed tempor. Senectus nec iaculis duis hendrerit volutpat. Imperdiet sagittis nibh sed viverra turpis. Lacus quam eu risus bibendum sed. Eu mauris amet tristique donec ultrices purus sed. Morbi pellentesque sem dolor eu.
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis pellentesque donec eu lectus. Tristique interdum volutpat, gravida molestie at. Sit vitae viverra congue egestas at purus venenatis. Ut sapien risus non, sed tempor.
-                                Senectus nec iaculis duis hendrerit volutpat. Imperdiet sagittis nibh sed viverra turpis. Lacus quam eu risus bibendum sed. Eu mauris amet tristique donec ultrices purus sed. Morbi pellentesque sem dolor eu.
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis pellentesque donec eu lectus. Tristique interdum volutpat, gravida molestie at. Sit vitae viverra congue egestas at purus venenatis.
-                                Ut sapien risus non, sed tempor. Senectus nec iaculis duis hendrerit volutpat. Imperdiet sagittis nibh sed viverra turpis. Lacus quam eu risus bibendum sed. Eu mauris amet tristique donec ultrices purus sed. Morbi pellentesque sem dolor eu.
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis pellentesque donec eu lectus. Tristique interdum volutpat, gravida molestie at. Sit vitae viverra congue egestas at purus venenatis. Ut sapien risus non, sed tempor.
-                                Senectus nec iaculis duis hendrerit volutpat. Imperdiet sagittis nibh sed viverra turpis. Lacus quam eu risus bibendum sed. Eu mauris amet tristique donec ultrices purus sed. Morbi pellentesque sem dolor eu.   </p>
-                            </span>
-                        </div>
-                    </article>
-                </section>
             </div>
-        </div>
+        </main>
     </body>
 </html>
